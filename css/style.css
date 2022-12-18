@@ -6,7 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #555555;
+  color: #333;
 }
 
 html, body {
@@ -144,6 +144,7 @@ em {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.125);
   padding-top: 2%;
   padding-bottom: 1%;
+  margin-bottom: 1rem;
 }
 
 #news {
@@ -167,6 +168,14 @@ em {
 
 .teaching-desc {
   padding-left: 0.5em;
+  width: 75%;
+  float: left;
+}
+
+.teaching-date {
+  width: 25%;
+  float: right;
+  text-align: right;
 }
 
 .teaching-desc ul {
@@ -174,16 +183,16 @@ em {
   padding-left: 1em;
 }
 
-#top {
+/* #top {
   padding-top: 3%;
-}
+} */
 
 .year-header {
   width: 100%;
   float: left;
   font-size: 1.2rem;
   font-weight: bold;
-  padding-top: 1.5em;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
   font-family: 'Crimson Text', serif;
@@ -206,7 +215,7 @@ em {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border: #999999 1px;
+  border: #ddd solid 1px;
 }
 
 .pub-info {
@@ -324,6 +333,28 @@ em {
   padding-left: 1.4em;
   text-indent: -1.35em;
   text-align: left;
+}
+
+.experience {
+  line-height: 164%;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.0rem;
+  font-family: 'Helvetica';
+}
+
+.experience-desc {
+  padding-left: 0.5em;
+  width: 75%; 
+  float: left;
+}
+
+.experience-date {
+  width: 20%; 
+  float: right;
+  text-align: right;
 }
 
 @media only screen and (min-width: 1000px) {
