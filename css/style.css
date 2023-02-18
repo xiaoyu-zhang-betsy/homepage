@@ -216,6 +216,7 @@ em {
   height: 100%;
   overflow: hidden;
   border: #ddd solid 1px;
+  border-radius: 3px;
 }
 
 .pub-info {
