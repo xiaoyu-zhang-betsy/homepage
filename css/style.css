@@ -49,7 +49,7 @@ em {
 #profile-photo {
   float: left;
   /* width: 150px; */
-  width: 20%;
+  width: 22%;
   /* height: 150px; */
   margin-top: 3%;
   margin-left: 10px;
@@ -67,7 +67,7 @@ em {
 
 #profile-biography {
   float: left;
-  width: 77%;
+  width: 75%;
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
