@@ -365,10 +365,45 @@ em {
   }
 }
 
-@media only screen and (min-device-width: 200px) and (max-device-width: 800px) {
+@media only screen and (max-width: 800px) {
   html, body {
     font-size: 100%;
     text-align: left;
+  }
+
+  body {
+    width: 92%;
+    margin-top: 20px;
+    overflow-wrap: anywhere;
+  }
+
+  #profile-photo {
+    float: none;
+    clear: both;
+    width: 150px;
+    max-width: 100%;
+    margin: 1rem auto 0;
+  }
+
+  #profile-photo img {
+    float: none;
+    height: auto;
+  }
+
+  #profile-biography {
+    width: 100%;
+    padding: 0;
+  }
+
+  .teaching-desc, .teaching-date, .experience-desc, .experience-date {
+    float: none;
+    width: 100%;
+    padding-left: 0.5em;
+    text-align: left;
+  }
+
+  .teaching-date, .experience-date {
+    margin-bottom: 0.5em;
   }
 
   .pub-title {
